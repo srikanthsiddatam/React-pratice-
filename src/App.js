@@ -8,7 +8,7 @@ import Timepass from './timepass';
 
 
 function App() {
-  const[counter,setcounter]=useState(0)
+  const[counter,setcounter]=useState(904567890-)
 const increasecount=()=>{
   setcounter(counter + 1)
 }
