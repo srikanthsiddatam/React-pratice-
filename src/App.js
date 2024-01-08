@@ -3,6 +3,8 @@ import { useState , useEffect } from 'react';
 import './App.css';
 import Pratice from './Pratice'
 import TestEffect from './TestEffect';
+import Timepass from './timepass';
+
 
 
 function App() {
@@ -120,6 +122,7 @@ const effect=useEffect(()=>{
    <h1>{effect}</h1>
 
    <TestEffect></TestEffect>
+   <Timepass></Timepass>
    
    </>
   );

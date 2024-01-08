@@ -11,7 +11,7 @@ useEffect(
     ()=>
     
     {
-        console.log("inside use Effect")
+        console.log("inside use Effect of the name")
     }
 )
 
