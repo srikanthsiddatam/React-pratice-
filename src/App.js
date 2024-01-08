@@ -1,7 +1,9 @@
-import { useState } from 'react';
+import { useState , useEffect } from 'react';
 // import React {useState} from 'react';
 import './App.css';
 import Pratice from './Pratice'
+import TestEffect from './TestEffect';
+
 
 function App() {
   const[counter,setcounter]=useState(0)
@@ -80,6 +82,10 @@ const [color,setColor]=useState("99")
 const changecolor=()=>{
   setColor("blue")
 }
+const effect=useEffect(()=>{
+  console.log("srikanth i am srikanth")
+} ,[])
+
 
   return (
    <>
@@ -111,7 +117,9 @@ const changecolor=()=>{
 <h1>these color is {color}</h1>
 <button on onClick={changecolor}> Change color</button>
 
-   
+   <h1>{effect}</h1>
+
+   <TestEffect></TestEffect>
    
    </>
   );
